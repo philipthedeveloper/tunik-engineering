@@ -48,11 +48,19 @@ body {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  display: flex;
   top: 0;
   left: 0;
-  transition: 1.5s ease;
   z-index: -1;
+  overflow: hidden;
+}
+
+.background-images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: 1.5s ease;
+  position: absolute;
+  left: 0;
 }
 
 .bg {
@@ -845,7 +853,7 @@ section.portfolio .overlay a {
   width: 10px;
   display: inline-block;
   height: 10px;
-  border: 2px solid var(--darkGray);
+  border: 2px solid var(--primaryColor);
   border-radius: 50%;
   margin: 0.5rem;
   cursor: pointer;
@@ -857,7 +865,7 @@ section.portfolio .overlay a {
 }
 
 .portfolio-circle.active {
-  background-color: var(--darkGray);
+  background-color: var(--primaryColor);
 }
 
 section.clients {

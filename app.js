@@ -31,7 +31,7 @@ const serviceList = document.querySelectorAll(".service-texts li");
 const clients = document.querySelectorAll(".client-img");
 const allLi = document.querySelectorAll("header nav li");
 const header = document.querySelector("header");
-const slider = document.querySelector(".background-image-container");
+const slider = document.querySelector(".background-images");
 
 setInterval(() => {
   const left = slider.getBoundingClientRect().left;
