@@ -527,7 +527,7 @@ section.service {
   margin: auto;
   padding: 2rem 3rem;
   /* padding-bottom: 0; */
-  min-height: 95vh;
+  min-height: 80vh;
   position: relative;
 }
 
